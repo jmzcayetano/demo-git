@@ -13,6 +13,10 @@ public class SaludoController {
 	
 	@GetMapping("/otroSaludo")
 	public String otroSaludo() {
-		return "soy rama 2";
+		return "Otro saludo";
+	}
+	
+	public String saludar() {
+		return "Saludar ";
 	}
 }
