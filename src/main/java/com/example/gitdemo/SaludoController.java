@@ -17,6 +17,6 @@ public class SaludoController {
 	}
 	
 	public String saludar() {
-		return " ";
+		return "Saludar ";
 	}
 }
