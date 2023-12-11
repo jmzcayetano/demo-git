@@ -10,4 +10,9 @@ public class SaludoController {
 	public String saludo() {
 		return "Hola Mundo";
 	}
+	
+	@GetMapping("/otroSaludo")
+	public String otroSaludo() {
+		return "Otro saludo";
+	}
 }
