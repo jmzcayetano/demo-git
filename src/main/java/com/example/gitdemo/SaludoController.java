@@ -18,6 +18,6 @@ public class SaludoController {
 	
 	@GetMapping("/saludar")
 	public String saludar() {
-		return "Saludar ";
+		return "Saludar, con java ";
 	}
 }
