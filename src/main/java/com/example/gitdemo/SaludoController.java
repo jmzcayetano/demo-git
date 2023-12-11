@@ -15,4 +15,8 @@ public class SaludoController {
 	public String otroSaludo() {
 		return "Otro saludo";
 	}
+	
+	public String saludar() {
+		return " ";
+	}
 }
